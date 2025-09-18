@@ -1,0 +1,65 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+# Gradle
+.gradle/
+build/
+
+# Fabric dev run
+run/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+logs/
+crash-reports/
+
+# User-provided model content (not in source control)
+hologram/models/
+
+# Vendored BlazeRod sources (using libs/ jars instead)
+ArmorStand/

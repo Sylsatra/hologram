@@ -1,0 +1,59 @@
+{
+	"schemaVersion": 1,
+	"id": "hologram",
+	"version": "${version}",
+	"name": "hologram",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hologram/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.sylsatra.Hologram",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.sylsatra.HologramClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"hologram.mixins.json",
+		{
+			"config": "hologram.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"jars": [
+		{ "file": "META-INF/jars/blazerod.jar" },
+		{ "file": "META-INF/jars/blazerod-render.jar" },
+		{ "file": "META-INF/jars/blazerod-model-base.jar" },
+		{ "file": "META-INF/jars/blazerod-model-formats.jar" },
+		{ "file": "META-INF/jars/blazerod-model-formats-gltf.jar" },
+		{ "file": "META-INF/jars/blazerod-model-formats-pmd.jar" },
+		{ "file": "META-INF/jars/blazerod-model-formats-pmx.jar" },
+		{ "file": "META-INF/jars/blazerod-model-formats-vmd.jar" },
+		{ "file": "META-INF/jars/blazerod-model-formats-bedrock.jar" }
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

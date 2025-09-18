@@ -243,7 +243,6 @@ Permissions:
 - Example media (not bundled with the mod; only referenced in the repository folder `vide0&image/`):
   - Image with Ditto — model credit: https://www.deviantart.com/sab64
   - Video featuring Ditto and Baltimore — model credits: https://www.deviantart.com/sab64 (Ditto), https://fantia.jp/fanclubs/104882 (Baltimore)
-  - If you showcase the video, please mention both creator links above.
 
 All rights to the BlazeRod library and the example models remain with their respective authors. This mod does not redistribute any third-party model content.
 
